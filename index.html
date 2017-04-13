@@ -15,9 +15,7 @@
 		<div class="container" >
 			<div id="parent">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle menu-xs">
-					</button>
-					<button type="button" class="navbar-toggle tel-xs">
+					<button type="button" class="navbar-toggle menu-xs" data-toggle="collapse" data-target="#responsive-menu">
 					</button>
 					<a  href="#" class="logo-xs visible-xs hidden-lg hidden-md hidden-sm"><img src="images/logo.png" width="108px"></a>
 				</div>
@@ -320,39 +318,6 @@
 		});
 		
 
-		
-	var x=1;
-	var y=1;
-	$(".tel-xs").click(function(){
-		if (x==1 && y==1 ) {
-			$("#contact-xs").removeClass("collapse");
-			return y=2;  
-		}
-		else if (x==2) {
-			$("#responsive-menu").addClass("collapse");
-			$("#contact-xs").removeClass("collapse");
-			return x=1, y=2;  
-		}
-		else if (y==2) {
-			$("#contact-xs").addClass("collapse");
-			return y=1;
-		};	
-	});
-	$(".menu-xs").click(function(){	
-		if (x==1 && y==1)  {   
-			$("#responsive-menu").removeClass("collapse");
-			return x=2;
-		}
-		else if (y==2) {
-			$("#contact-xs").addClass("collapse");
-			$("#responsive-menu").removeClass("collapse");
-			return y=1, x=2;  
-		}
-		else if (x==2)  {	
-			$("#responsive-menu").addClass("collapse");
-			return x=1;
-		};
-	});
 
 </script>
   </body>

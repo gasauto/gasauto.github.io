@@ -30,15 +30,12 @@ body {
 .logo-xs {
 	padding: 10px;
 }
-.menu-xs, .tel-xs {
+.menu-xs {
 	width:32px;
 	height:32px;
 	background: url(images/icon_menuxs.png) no-repeat center center;
 	border-radius: 8px 0;
 	border-width:2px;
-}
-.tel-xs {
-	background: url(images/icon_telxs.png) no-repeat center center;
 }
 .navbar-default .navbar-toggle { 
   border-color: #a3afbd;	/*по-другому не меняется border*/
