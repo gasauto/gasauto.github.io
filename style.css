@@ -18,6 +18,9 @@ body {
 	display: table;
 	margin:0 auto;
 	}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #1d6ddc;
+}
 /*---------------  ÀŒ√Œ“»œ »  ŒÕ“¿ “€   -------------------*/
 .social {
 	text-align: right;
@@ -64,9 +67,23 @@ body {
 	font-style: italic;
 	text-align: center;	
 }
+.carousel-indicators {
+	bottom: 5px;
+ }
+.carousel-indicators li {
+   width: 12px;
+  height: 12px;
+  margin: 6px;
+  border-radius: 12px;
+}
+.carousel-indicators .active {
+  width: 14px;
+  height: 14px;
+  margin: 5px;
+}
 /*--------------    / —À¿…ƒ≈–------------------*/
 .years15_all {
-	margin-bottom:25px;
+	margin-bottom:35px;
 }
 .years15 {width: 200px;
 	height: 190px;
@@ -94,7 +111,7 @@ body {
 	text-align: center;
 	color: #fff;	
 	font-size: 14px;
-	padding: 15px 0;
+	padding: 5px 0 15px;
 	line-height:1.7;
 }
 .years15_xs span {
@@ -121,7 +138,7 @@ body {
 	padding-bottom:25px;
 }
 .line_margin {
-	margin:25px 0 40px 0;
+	margin:0 0 40px 0;
 }
 .line {
 	height:3px;	
@@ -168,7 +185,7 @@ h3.sertificat {
 	text-align:center;
 	margin-top: 50px;
 }
-h4 {
+.line_left h4 {
 	font-size:36px;
 	color: #1d6ddc;
 	font-weight: bold;
@@ -206,6 +223,9 @@ footer {
 	text-align: center;
 	margin-left:-45px;
 }
+	.foot-partners a {
+		color: #fff;
+	}
 .foot-contact {
 	text-align: right;
 }
@@ -287,18 +307,17 @@ footer {
 	.navbar-default {
     background-color: #fff;
     border: 0;
-}
+	}
 	.row1,.row2, .row3 { 
 	text-align: center;
 	padding-left:0;
 	background: url(images/icon1.png) no-repeat center bottom;
 	padding-bottom: 40px;
-
 	}
 	.clear {
 	clear:both;
 	}
-	.service-main  .row6 { 
+	.service-main  .row_6 { 
 	background: none;
 	}
 	.service {
@@ -309,7 +328,7 @@ footer {
 	height: auto;	
 	}
 	.service span {
-	margin:0 10px;
+	margin:0 5px;
 	}
 	.choose .service {
 	text-decoration:underline;
@@ -319,8 +338,7 @@ footer {
 	padding-left: 90px;
 	padding-top: 0;
 	margin: 0 auto 20px;
-	display:table;
-	text-align:left;
+	display: table;
 	}
 	.sert_top {
 	margin-left: 11px;
@@ -330,16 +348,19 @@ footer {
 	border-left:none;
 	margin-left: 0;
 	}
-	h4 {
+	.line_left h4 {
 	text-align:center;
 	border-top: 2px solid #1d6ddc;
 	margin:10px -15px;
 	padding-top: 15px;
+	font-size: 32px; 
 	}
 	.interesting li {
 	margin-left: 0;
 	}
-	.interesting {margin: 0 auto;}
+	.interesting {
+	margin: 0 auto;
+	}
 	.foot-years {
 	text-align: center;
 	}
